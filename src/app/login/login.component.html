@@ -1,0 +1,19 @@
+<div class="example-container">
+  <mat-form-field appearance="outline">
+    <mat-label style="left:10px;position:relative;">Ingresar usuario</mat-label>
+    <mat-icon matPrefix>person</mat-icon>
+    <input matInput placeholder="Ingresar usuario" />
+    <mat-hint>Hint</mat-hint>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label style="left:10px;position:relative;"
+      >Ingresar contraseña</mat-label
+    >
+    <mat-icon matPrefix>lock</mat-icon>
+    <input matInput placeholder="Ingresar contraseña" type="password" />
+    <mat-hint>Hint</mat-hint>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" (click)="loguear()">Entrar</button>
+</div>
